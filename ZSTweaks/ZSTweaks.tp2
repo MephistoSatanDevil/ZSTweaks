@@ -1,6 +1,6 @@
 BACKUP "weidu_external/backup/ZSTweaks"
 SUPPORT "Kaelyn at Gibberlings3 forum https://www.gibberlings3.net/profile/12720-kaelyn/ or at kaelyn@tuta.io"
-VERSION "1.7.0"
+VERSION "1.7.0c"
 README ~%MOD_FOLDER%/readme.md~
 AUTO_EVAL_STRINGS
 
@@ -1425,7 +1425,7 @@ BEGIN @5400 LABEL ~zs_tw_sanctuary~ DESIGNATED 5400 GROUP @20 // SANCTUARY
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @54
 FORBID_COMPONENT "ZSTweaks.tp2" "99" @58
 
-BEGIN @5402 LABEL ~zs_tw_hold_animal~ DESIGNATED 5400 GROUP @20 // HOLD ANIMAL TWEAK
+BEGIN @5402 LABEL ~zs_tw_hold_animal~ DESIGNATED 5402 GROUP @20 // HOLD ANIMAL TWEAK
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @54
 FORBID_COMPONENT "ZSTweaks.tp2" "99" @58
 
